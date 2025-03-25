@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Manrope";
+    src: url(/fonts/Manrope/Manrope-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "LibreFranklin";
+    src: url(/fonts/LibreFranklin/LibreFranklin-VariableFont_wght.ttf);
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "LibreFranklin";
+    font-weight: 300;
+    font-size: 26px;
+    color: #DDDDDD;
+    text-decoration: none;
+}
+
+body {
+    background-color: #080B10;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+li.header-nav {
+    /* list-style: none; */
+    font-size: 20px;
+    font-family: "LibreFranklin";
+    font-weight: bold;
+    display: inline-block;
+    padding: 25px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+li.header-nav:hover {
+    background-color: #1e1f21;
+    transition: 0.4s;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #DDDDDD;
+    font-family: "LibreFranklin";
+    margin: 0;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.header-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(8, 11, 16, 0), rgba(8, 11, 16, 1)), url(/images/main-images/terrorblade.png);
+    width: 100vw;
+    height: 40vh;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.header-club {
+    font-size: 40px;
+    font-weight: bold;
+    color: #9C9390;
+    font-family: "LibreFranklin";
+    text-transform: uppercase;
+}
+
+.header-game {
+    font-size: 90px;
+    font-weight: bold;
+    color: #DDDDDD;
+    font-family: "LibreFranklin";
+    text-transform: uppercase;
+}
+
+.container {
+    width: 65vw;
+}
