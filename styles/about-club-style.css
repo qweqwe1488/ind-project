@@ -1,10 +1,10 @@
-.about-club {
+/* .about-club {
     margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
+} */
 
 .about-club-block {
     display: flex;
@@ -17,7 +17,7 @@
     row-gap: 20px;
 }
 
-.about-club-img-block{
+.about-club-img-block {
     display: flex;
     margin-top: 20px;
     column-gap: 20px;
@@ -28,4 +28,16 @@
     padding: 20px;
     border: #242E3F 2px solid;
     border-radius: 20px;
+}
+
+.our-rewards {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+#about-club{
+    row-gap: 0px;
 }

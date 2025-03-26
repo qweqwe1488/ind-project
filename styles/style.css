@@ -60,7 +60,9 @@ img {
 
 main {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
 }
 
 .header-background {
@@ -93,3 +95,13 @@ main {
 .container {
     width: 65vw;
 }
+
+.main-item {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
