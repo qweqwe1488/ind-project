@@ -43,15 +43,6 @@
     font-family: "LibreFranklin";
 }
 
-.social-media {
-    opacity: 50%;
-    transition: 0.5s;
-}
-
-.social-media:hover {
-    opacity: 100%;
-    transition: 0.5 s;
-}
 
 .player-info {
     display: flex;

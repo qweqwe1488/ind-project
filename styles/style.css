@@ -68,6 +68,7 @@ main {
     flex-direction: column;
 }
 
+
 .header-background {
     display: flex;
     justify-content: center;
@@ -106,4 +107,90 @@ main {
     align-items: center;
     flex-direction: column;
     row-gap: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.footer-content {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #0C1019;
+    padding: 30px;
+    border: #242E3F 2px solid;
+    border-radius: 20px;
+    row-gap: 10px;
+}
+
+.footer-block1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-club {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.footer-logo {
+    width: 5vw;
+}
+
+.footer-club-titles {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.footer-game-name {
+    font-size: 52px;
+    font-weight: bold;
+    color: #DDDDDD;
+    font-family: "LibreFranklin";
+}
+
+.footer-club-name {
+    font-size: 26px;
+    font-weight: bold;
+    color: #9C9390;
+    font-family: "LibreFranklin";
+}
+
+.footer-nav{
+    margin-right: 80px;
+}
+
+.footer-nav-item {
+    font-size: 22px;
+}
+
+.footer-social-media {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.footer-social-media-item {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 20px;
+}
+
+.social-media {
+    opacity: 65%;
+    transition: 0.5s;
+}
+
+.social-media:hover {
+    opacity: 100%;
 }
