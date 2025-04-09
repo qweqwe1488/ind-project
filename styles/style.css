@@ -14,7 +14,7 @@
     padding: 0px;
     font-family: "LibreFranklin";
     font-weight: 300;
-    font-size: 26px;
+    font-size: 22px;
     color: #DDDDDD;
     text-decoration: none;
 }
@@ -30,14 +30,14 @@ nav {
 
 li.header-nav {
     /* list-style: none; */
-    font-size: 20px;
+    font-size: 18px;
     font-family: "LibreFranklin";
     font-weight: bold;
     display: inline-block;
-    padding: 25px;
+    padding: 23px;
     border-radius: 10px;
     text-transform: uppercase;
-    transition: 0.4s;
+    /* transition: 0.4s; */
 }
 
 li.header-nav:hover {
@@ -46,7 +46,7 @@ li.header-nav:hover {
 }
 
 h2 {
-    font-size: 42px;
+    font-size: 40px;
     font-weight: bold;
     color: #DDDDDD;
     font-family: "LibreFranklin";
@@ -58,6 +58,7 @@ img {
     max-width: 100%;
     max-height: 100%;
     height: auto;
+    
 }
 
 
@@ -74,14 +75,20 @@ main {
     justify-content: center;
     align-items: center;
     background: linear-gradient(rgba(8, 11, 16, 0), rgba(8, 11, 16, 1)), url(/images/main-images/terrorblade.png);
-    width: 100vw;
-    height: 40vh;
+    width: 100%;
+    height: 50%;
     background-size: cover;
     flex-direction: column;
 }
 
+.logo {
+    width: 10vw;
+    max-width: 160px;
+    margin-top: 30px;
+}
+
 .header-club {
-    font-size: 40px;
+    font-size: 1.55em; /* 48px*/
     font-weight: bold;
     color: #9C9390;
     font-family: "LibreFranklin";
@@ -89,7 +96,7 @@ main {
 }
 
 .header-game {
-    font-size: 90px;
+    font-size: 3.45em; /* 90px*/
     font-weight: bold;
     color: #DDDDDD;
     font-family: "LibreFranklin";
@@ -97,11 +104,11 @@ main {
 }
 
 .container {
-    width: 65vw;
+    width: 62vw;
 }
 
 .main-item {
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,7 +121,6 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-
 }
 
 .footer-content {
@@ -141,7 +147,7 @@ footer {
 }
 
 .footer-logo {
-    width: 5vw;
+    width: 4vw;
 }
 
 .footer-club-titles {
@@ -152,25 +158,25 @@ footer {
 }
 
 .footer-game-name {
-    font-size: 52px;
+    font-size: 2em;
     font-weight: bold;
     color: #DDDDDD;
     font-family: "LibreFranklin";
 }
 
 .footer-club-name {
-    font-size: 26px;
+    font-size: 1em;
     font-weight: bold;
     color: #9C9390;
     font-family: "LibreFranklin";
 }
 
-.footer-nav{
-    margin-right: 80px;
+.footer-nav {
+    margin-right: 5vw;
 }
 
 .footer-nav-item {
-    font-size: 22px;
+    font-size: 0.85em;
 }
 
 .footer-social-media {
@@ -183,14 +189,16 @@ footer {
     display: flex;
     align-items: center;
     column-gap: 10px;
-    font-size: 20px;
+    font-size: 0.85em;
 }
 
 .social-media {
     opacity: 65%;
-    transition: 0.5s;
+    width: 39px;
+    transition: 0.4s;
 }
 
 .social-media:hover {
     opacity: 100%;
+    /*transition: 0.4s;  поломанная анимка */
 }
