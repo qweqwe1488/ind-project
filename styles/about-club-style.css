@@ -19,8 +19,8 @@
 
 .about-club-img-block {
     display: flex;
-    margin-top: 20px;
-    column-gap: 20px;
+    margin-top: 2vw;
+    column-gap: 2vw;
 }
 
 .about-club-img-item {
@@ -28,6 +28,10 @@
     padding: 20px;
     border: #242E3F 2px solid;
     border-radius: 20px;
+}
+
+.about-club-img{
+    border-radius: 15px;
 }
 
 /* .our-rewards {

@@ -46,8 +46,8 @@
     }
 
     .player-main-info-item {
-
         max-width: 135px;
+        min-width: 83px
     }
 
     .player-card {
@@ -109,6 +109,7 @@
 
     .player-main-info-item {
         max-width: 115px;
+        min-width: 72px
     }
 
     .player-card {
@@ -168,6 +169,7 @@
 
     .player-main-info-item {
         max-width: 100px;
+        min-width: 55px
     }
 
     .player-card {
@@ -185,4 +187,138 @@
     .container {
         width: 69vw;
     }
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        font-size: 11px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    li.header-nav {
+        font-size: 9px;
+        padding: 10px;
+    }
+
+    .social-media {
+        width: 18px;
+    }
+
+    .logo {
+        width: 7vw;
+    }
+
+    .footer-logo {
+        width: 4vw;
+    }
+
+    .team-members-block {
+        padding: 7px 30px 10px 10px;
+    }
+
+    .about-club-def-block {
+        padding: 11px 16px 16px 16px;
+    }
+
+    .about-club-img-item {
+        padding: 8px;
+    }
+
+    .player-main-info-item {
+        max-width: 85px;
+        min-width: 52px
+    }
+
+    .player-card {
+        max-width: 85px;
+    }
+
+    p.player-main-info-parameter {
+        font-size: 12px;
+    }
+
+    p.player-main-info {
+        font-size: 12px;
+    }
+
+    .container {
+        width: 73vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    * {
+        font-size: 10px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    li.header-nav {
+        font-size: 7px;
+        padding: 8px;
+    }
+
+    .social-media {
+        width: 14px;
+    }
+
+    .logo {
+        width: 7vw;
+    }
+
+    .footer-logo {
+        width: 4vw;
+    }
+
+    .footer-block1{
+        align-items: start;
+        flex-direction: column;
+        row-gap: 1vh;
+    }
+
+    .team-members-block {
+        padding: 5px 20px 20px 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .player-info {
+        margin: 0;
+    }
+
+    .about-club-def-block {
+        padding: 8px 12px 12px 12px;
+    }
+
+    .about-club-img-item {
+        padding: 6px;
+    }
+
+    .player-main-info-item {
+        max-width: 70px;
+        min-width: 45px
+    }
+
+    .player-card {
+        max-width: 100px;
+        margin-bottom: 10px;
+    }
+
+    p.player-main-info-parameter {
+        font-size: 11px;
+    }
+
+    p.player-main-info {
+        font-size: 11px;
+    }
+
+    .container {
+        width: 75vw;
+    }
+
 }
