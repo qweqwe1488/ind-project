@@ -7,7 +7,10 @@
     font-family: "LibreFranklin";
     src: url(/fonts/LibreFranklin/LibreFranklin-VariableFont_wght.ttf);
 }
-
+.container {
+    width: 62vw;
+    max-width: 1250px;
+}
 
 * {
     margin: 0px;
@@ -101,10 +104,6 @@ main {
     color: #DDDDDD;
     font-family: "LibreFranklin";
     text-transform: uppercase;
-}
-
-.container {
-    width: 62vw;
 }
 
 .main-item {
